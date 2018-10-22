@@ -1,0 +1,62 @@
+{
+    "SystemSetup": {
+        "type": "fn",
+        "qLanguage": {
+            "str": "System",
+            "key": "SYSTEM"
+        },
+        "descriptionIndex": "SYSTEM_SETUP_DESC",
+        "appWindowJson": "app/SystemSetup/config.json",
+        "icon": "img/app_system.png",
+        "maxWindowOpenNum": 1,
+        "extId": []
+    },
+    "StorageManagement": {
+        "type": "fn",
+        "qLanguage": {
+            "str": "Storage",
+            "key": "STORAGE"
+        },
+        "descriptionIndex": "STORAGE_MANAGEMENT_DESC",
+        "appWindowJson": "app/StorageManagement/config.json",
+        "icon": "img/app_storage.png",
+        "maxWindowOpenNum": 1,
+        "extId": []
+    },
+    "Service": {
+        "type": "fn",
+        "qLanguage": {
+            "str": "Service",
+            "key": "SERVICE"
+        },
+        "descriptionIndex": "SERVICE_DESC",
+        "appWindowJson": "app/Service/config.json",
+        "icon": "img/app_service.png",
+        "maxWindowOpenNum": 1,
+        "extId": []
+    },
+    "Folder": {
+        "type": "fn",
+        "qLanguage": {
+            "str": "Folder",
+            "key": "FOLDER"
+        },
+        "descriptionIndex": "FOLDER_DESC",
+        "appWindowJson": "app/Folder/config.json",
+        "icon": "img/app_folder.png",
+        "maxWindowOpenNum": 1,
+        "extId": []
+    },
+    "FileManager": {
+        "type": "fn",
+        "qLanguage": {
+            "str": "File Manager",
+            "key": "FILE_MANAGER"
+        },
+        "descriptionIndex": "FILE_MANAGER_DESC",
+        "appWindowJson": "app/FileManager/config.json",
+        "icon": "img/app_filemanager.png",
+        "maxWindowOpenNum": 1,
+        "extId": []
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "dock": [{
+        "index": 0,
+        "alwaysOnDock": true,
+        "item": "Apps"
+    }, {
+        "index": 2,
+        "alwaysOnDock": false,
+        "item": "SystemSetup"
+    }, {
+        "index": 3,
+        "alwaysOnDock": false,
+        "item": "StorageManagement"
+    }, {
+        "index": 4,
+        "alwaysOnDock": false,
+        "item": "PrivilegeSetting"
+    }]
+}

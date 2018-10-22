@@ -1,0 +1,181 @@
+{
+    "app": "StorageManagement",
+    "qLanguage": {
+        "str": "Storage Management",
+        "key": "STORAGE_MANAGEMENT"
+    },
+    "css": ["style.css"],
+    "cls": "app-win-storagemanagement",
+    "tree": [{
+        "itemId": "treeOverview",
+        "iconCls": "tree-overview",
+        "qLanguage": {
+            "str": "Overview",
+            "key": "OVERVIEW"
+        },
+        "applyAll": false,
+        "tabs": [{
+            "itemId": "tabDisk",
+            "contentItemId": "Disk",
+            "qLanguage": {
+                "str": "Disk",
+                "key": "DISK"
+            },
+            "xtype": "overviewdisk",
+            "require": "DESKTOP.StorageManagement.overview.view.Disk"
+        }, {
+            "itemId": "tabPool",
+            "contentItemId": "Pool",
+            "qLanguage": {
+                "str": "Pool",
+                "key": "POOL"
+            },
+            "xtype": "overviewpool",
+            "require": "DESKTOP.StorageManagement.overview.view.Pool"
+        }]
+    }, {
+        "itemId": "treeDisk",
+        "iconCls": "tree-disk",
+        "qLanguage": {
+            "str": "Disk",
+            "key": "DISK"
+        },
+        "applyAll": false,
+        "tabs": [{
+            "itemId": "tabDisk",
+            "contentItemId": "Disk",
+            "qLanguage": {
+                "str": "Disk",
+                "key": "DISK"
+            },
+            "xtype": "disk",
+            "require": "DESKTOP.StorageManagement.disk.view.Disk"
+        }]
+    }, {
+        "itemId": "treePool",
+        "iconCls": "tree-pool",
+        "qLanguage": {
+            "str": "Pool",
+            "key": "POOL"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabPool",
+            "contentItemId": "Pool",
+            "qLanguage": {
+                "str": "Pool",
+                "key": "POOL"
+            },
+            "xtype": "pool",
+            "require": "DESKTOP.StorageManagement.pool.view.Pool"
+        }]
+    }, {
+        "itemId": "treeVolume",
+        "iconCls": "tree-volume",
+        "qLanguage": {
+            "str": "Volume",
+            "key": "VOLUME"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabVolume",
+            "contentItemId": "Volume",
+            "qLanguage": {
+                "str": "Volume",
+                "key": "VOLUME"
+            },
+            "xtype": "volume",
+            "require": "DESKTOP.StorageManagement.volume.view.Volume"
+        }]
+    }, {
+        "itemId": "treeSsdCache",
+        "iconCls": "tree-ssdcache",
+        "qLanguage": {
+            "str": "SSD Cache",
+            "key": "SSD_CACHE"
+        },
+        "applyAll": false,
+        "tabs": [{
+            "itemId": "tabSsdCache",
+            "contentItemId": "SsdCache",
+            "qLanguage": {
+                "str": "SSD Cache",
+                "key": "SSD_CACHE"
+            },
+            "xtype": "ssdcache",
+            "require": "DESKTOP.StorageManagement.ssdcache.view.SsdCache"
+        }]
+    }, {
+        "itemId": "treeIscsi",
+        "iconCls": "tree-iscsi",
+        "qLanguage": {
+            "str": "iSCSI",
+            "key": "ISCSI"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabGeneralSetting",
+            "contentItemId": "GeneralSetting",
+            "qLanguage": {
+                "str": "General Setting",
+                "key": "GENERAL_SETTING"
+            },
+            "xtype": "iscsigeneralsetting",
+            "require": "DESKTOP.StorageManagement.iscsi.view.GeneralSetting"
+        }, {
+            "itemId": "tabSetup",
+            "contentItemId": "Setup",
+            "qLanguage": {
+                "str": "Setup",
+                "key": "SETUP"
+            },
+            "xtype": "iscsisetup",
+            "require": "DESKTOP.StorageManagement.iscsi.view.Setup"
+        }]
+    }, {
+        "itemId": "treeSnapshot",
+        "iconCls": "tree-snapshot",
+        "qLanguage": {
+            "str": "Snapshot",
+            "key": "SNAPSHOT"
+        },
+        "applyAll": false,
+        "tabs": [{
+            "itemId": "tabManagement",
+            "contentItemId": "Management",
+            "qLanguage": {
+                "str": "Management",
+                "key": "MANAGEMENT"
+            },
+            "xtype": "snapshotmanagement",
+            "require": "DESKTOP.StorageManagement.snapshot.view.Management"
+        }, {
+            "itemId": "tabLog",
+            "contentItemId": "Log",
+            "qLanguage": {
+                "str": "Log",
+                "key": "LOG"
+            },
+            "xtype": "snapshotlog",
+            "require": "DESKTOP.StorageManagement.snapshot.view.Log"
+        }]
+    }, {
+        "itemId": "treeDeduplication",
+        "iconCls": "tree-deduplication",
+        "qLanguage": {
+            "str": "Deduplication",
+            "key": "DEDUPLICATION"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabDeduplication",
+            "contentItemId": "Deduplication",
+            "qLanguage": {
+                "str": "Deduplication",
+                "key": "DEDUPLICATION"
+            },
+            "xtype": "deduplication",
+            "require": "DESKTOP.StorageManagement.deduplication.view.Deduplication"
+        }]
+    }]
+}

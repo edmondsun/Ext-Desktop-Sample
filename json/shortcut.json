@@ -1,0 +1,38 @@
+{
+    "shortcut": [{
+        "index": 0,
+        "isGroup": false,
+        "groupName": null,
+        "item": [
+            "SystemSetup"
+        ]
+    }, {
+        "index": 1,
+        "isGroup": false,
+        "groupName": null,
+        "item": [
+            "StorageManagement"
+        ]
+    }, {
+        "index": 2,
+        "isGroup": false,
+        "groupName": null,
+        "item": [
+            "Folder"
+        ]
+    }, {
+        "index": 3,
+        "isGroup": false,
+        "groupName": null,
+        "item": [
+            "FileManager"
+        ]
+    }, {
+        "index": 4,
+        "isGroup": false,
+        "groupName": null,
+        "item": [
+            "Service"
+        ]
+    }]
+}

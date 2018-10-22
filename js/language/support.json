@@ -1,0 +1,56 @@
+﻿{
+    "GER": {
+        "language": "German",
+        "nativeName": "Deutsch",
+        "browserLanguage": "de",
+        "ext-locale": "de"
+    },
+    "ENG": {
+        "language": "English",
+        "nativeName": "English",
+        "browserLanguage": "en",
+        "ext-locale": "en"
+    },
+    "SPA": {
+        "language": "Spanish",
+        "nativeName": "Español",
+        "browserLanguage": "es",
+        "ext-locale": "es"
+    },
+    "FRE": {
+        "language": "French",
+        "nativeName": "Français",
+        "browserLanguage": "fr",
+        "ext-locale": "fr"
+    },
+    "ITA": {
+        "language": "Italian",
+        "nativeName": "Italiano",
+        "browserLanguage": "it",
+        "ext-locale": "it"
+    },
+    "RUS": {
+        "language": "Russian",
+        "nativeName": "Русский",
+        "browserLanguage": "ru",
+        "ext-locale": "ru"
+    },
+    "CHS": {
+        "language": "Chinese (Simplified)",
+        "nativeName": "简体中文",
+        "browserLanguage": "zh-cn",
+        "ext-locale": "zh_CN"
+    },
+    "CHT": {
+        "language": "Chinese (Traditional)",
+        "nativeName": "繁體中文",
+        "browserLanguage": "zh-tw",
+        "ext-locale": "zh_TW"
+    },
+    "JAP": {
+        "language": "Japanese",
+        "nativeName": "日本語",
+        "browserLanguage": "ja",
+        "ext-locale": "ja"
+    }
+}

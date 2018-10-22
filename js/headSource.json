@@ -1,0 +1,20 @@
+{
+    "css": {
+        "theme": "theme/ThemeTopApp-all.css",
+        "css/desktop": "css/desktop.css"
+    },
+    "js": {
+        "prejson": "js/prejson.js",
+        "other/extensions": "js/other/extensions.js",
+        "other/cookies": "js/other/cookies.js",
+        "other/filesize": "js/other/filesize.js",
+        "other/md5": "js/other/md5.js",
+        "ext/ext-all-rtl": "js/ext/ext-all-rtl.js",
+        "ext/sencha-charts": "js/ext/sencha-charts.js",
+        "pluploader": "js/pluploader.js",
+        "ext/ux-all": "js/ext/ux-all.js",
+        "language": "js/language.js",
+        "keyword": "js/keyword.js",
+        "../app": "app.js"
+    }
+}

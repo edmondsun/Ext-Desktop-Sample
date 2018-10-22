@@ -1,0 +1,9 @@
+{
+    "app": "FileManager",
+    "qLanguage": {
+        "str": "File Manager",
+        "key": "FILE_MANAGER"
+    },
+    "css": ["style.css"],
+    "cls": "app-win-filemanager"
+}

@@ -1,0 +1,23 @@
+.app-win-filemanager .x-tree-icon.x-tree-icon-leaf.home {
+    background-image: url(../images/icon_home.png);
+}
+
+.app-win-filemanager .x-tree-icon.x-tree-icon-leaf.allfiles {
+    background-image: url(../images/icon_all-files.png);
+}
+
+.app-win-filemanager .x-tree-icon.x-tree-icon-leaf.video {
+    background-image: url(../images/icon_video.png);
+}
+
+.app-win-filemanager .x-tree-icon.x-tree-icon-leaf.music {
+    background-image: url(../images/icon_music.png);
+}
+
+.app-win-filemanager .x-tree-icon.x-tree-icon-leaf.photo {
+    background-image: url(../images/icon_photo.png);
+}
+
+.app-win-filemanager .x-tree-icon.x-tree-icon-leaf.recyclebin {
+    background-image: url(../images/icon_recycle-bin.png);
+}

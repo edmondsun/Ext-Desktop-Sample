@@ -1,0 +1,110 @@
+@import "ThemeDemoApp-all_01.css";
+@import "ThemeDemoApp-all_02.css";
+
+.images-view .x-panel-body {
+    background: white;
+    font: 13px Arial, Helvetica, sans-serif;
+}
+
+.images-view .thumb {
+    background: transparent;
+
+    /*padding: 3px;*/
+    padding-bottom: 0;
+}
+
+.x-quirks .images-view .thumb {
+    padding-bottom: 3px;
+}
+
+.images-view .thumb img {
+    height: 52px;
+    width: 52px;
+}
+
+.images-view .thumb-wrap {
+    float: left;
+    margin: 0;
+
+    /*margin-right: 0;*/
+    padding: 10px;
+}
+
+.images-view .thumb-wrap span {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 70px;
+
+    /* for ie to ensure that the text is centered */
+}
+
+.images-view .x-item-over {
+    border: 1px solid #dddddd;
+    background: #efefef;
+    padding: 9px;
+}
+
+.images-view .x-item-selected {
+    background: #eff5fb ;
+    border: 1px solid #99bbe8;
+    padding: 9px;
+}
+
+.images-view .x-item-selected .thumb {
+    background: transparent;
+}
+
+.images-view .loading-indicator {
+    font-size: 13px;
+    background-image: url("../../resources/themes/images/default/grid/loading.gif");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.x-view-selector {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    border: 1px dotted;
+    opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity = 50);
+    zoom: 1;
+    background-color: #c3daf9;
+    border-color: #3399bb;
+}
+
+.ext-strict .ext-ie .x-tree .x-panel-bwrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.x-editable {
+    text-align: center;
+    font-size: 13px;
+    width: 50px;
+    height: 35px;
+    color: #000;
+    padding: 0 3px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.images-view.hover {
+    color: #f00;
+    border-color: #f00;
+    border-style: solid;
+    box-shadow: inset 0 3px 4px #888;
+}
+
+.dragover {
+    color: #f00;
+    border-color: #f00;
+    border-style: solid;
+    box-shadow: inset 0 3px 4px #888;
+}

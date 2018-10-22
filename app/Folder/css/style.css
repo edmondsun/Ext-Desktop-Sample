@@ -1,0 +1,11 @@
+.app-win-folder .readwrite {
+    background-image: url(../images/icon_read-write.png);
+}
+
+.app-win-folder .readonly {
+    background-image: url(../images/icon_read-only.png);
+}
+
+.app-win-folder .deny {
+    background-image: url(../images/icon_deny.png);
+}

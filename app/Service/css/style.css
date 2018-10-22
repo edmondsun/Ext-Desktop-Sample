@@ -1,0 +1,31 @@
+.app-win-service .x-tree-icon.x-tree-icon-leaf.tree-generalsetting {
+    background-image: url(../images/icon_gereral-setting.png);
+}
+
+.app-win-service .x-tree-icon.x-tree-icon-leaf.tree-windows {
+    background-image: url(../images/icon_windows.png);
+}
+
+.app-win-service .x-tree-icon.x-tree-icon-leaf.tree-mac {
+    background-image: url(../images/icon_mac.png);
+}
+
+.app-win-service .x-tree-icon.x-tree-icon-leaf.tree-nfs {
+    background-image: url(../images/icon_nfs.png);
+}
+
+.app-win-service .x-tree-icon.x-tree-icon-leaf.tree-ftp {
+    background-image: url(../images/icon_ftp.png);
+}
+
+.app-win-service .x-tree-icon.x-tree-icon-leaf.tree-webdav {
+    background-image: url(../images/icon_webdav.png);
+}
+
+.app-win-service .x-tree-icon.x-tree-icon-leaf.tree-rsync {
+    background-image: url(../images/icon_rsync.png);
+}
+
+.app-win-service .x-tree-icon.x-tree-icon-leaf.tree-timemachine {
+    background-image: url(../images/icon_time-machine.png);
+}

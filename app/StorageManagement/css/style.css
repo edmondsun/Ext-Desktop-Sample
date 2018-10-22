@@ -1,0 +1,31 @@
+.app-win-storagemanagement .x-tree-icon.x-tree-icon-leaf.tree-overview {
+    background-image: url(../images/icon_overview.png);
+}
+
+.app-win-storagemanagement .x-tree-icon.x-tree-icon-leaf.tree-disk {
+    background-image: url(../images/icon_disk.png);
+}
+
+.app-win-storagemanagement .x-tree-icon.x-tree-icon-leaf.tree-pool {
+    background-image: url(../images/icon_pool.png);
+}
+
+.app-win-storagemanagement .x-tree-icon.x-tree-icon-leaf.tree-volume {
+    background-image: url(../images/icon_volume.png);
+}
+
+.app-win-storagemanagement .x-tree-icon.x-tree-icon-leaf.tree-ssdcache {
+    background-image: url(../images/icon_ssd-cache.png);
+}
+
+.app-win-storagemanagement .x-tree-icon.x-tree-icon-leaf.tree-iscsi {
+    background-image: url(../images/icon_iscsi.png);
+}
+
+.app-win-storagemanagement .x-tree-icon.x-tree-icon-leaf.tree-snapshot {
+    background-image: url(../images/icon_snapshot.png);
+}
+
+.app-win-storagemanagement .x-tree-icon.x-tree-icon-leaf.tree-deduplication {
+    background-image: url(../images/icon_deduplication.png);
+}

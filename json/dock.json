@@ -1,0 +1,24 @@
+{
+    "dock": [{
+        "index": 0,
+        "isGroup": false,
+        "groupName": null,
+        "item": [
+            "SystemSetup"
+        ]
+    }, {
+        "index": 1,
+        "isGroup": false,
+        "groupName": null,
+        "item": [
+            "StorageManagement"
+        ]
+    }, {
+        "index": 2,
+        "isGroup": false,
+        "groupName": null,
+        "item": [
+            "Folder"
+        ]
+    }]
+}

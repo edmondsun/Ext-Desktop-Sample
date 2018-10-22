@@ -1,0 +1,145 @@
+{
+    "app": "Service",
+    "qLanguage": {
+        "str": "Service",
+        "key": "SERVICE"
+    },
+    "css": ["style.css"],
+    "cls": "app-win-service",
+    "tree": [{
+        "itemId": "treeWindows",
+        "iconCls": "tree-windows",
+        "qLanguage": {
+            "str": "Windows",
+            "key": "WINDOWS"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabWindows",
+            "contentItemId": "Windows",
+            "qLanguage": {
+                "str": "Windows",
+                "key": "WINDOWS"
+            },
+            "xtype": "windows",
+            "require": "DESKTOP.Service.windows.view.Windows"
+        }]
+    }, {
+        "itemId": "treeMac",
+        "iconCls": "tree-mac",
+        "qLanguage": {
+            "str": "Mac",
+            "key": "MAC"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabMac",
+            "contentItemId": "Mac",
+            "qLanguage": {
+                "str": "Mac",
+                "key": "MAC"
+            },
+            "xtype": "mac",
+            "require": "DESKTOP.Service.mac.view.Mac"
+        }]
+    }, {
+        "itemId": "treeNfs",
+        "iconCls": "tree-nfs",
+        "qLanguage": {
+            "str": "NFS",
+            "key": "NFS"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabNfs",
+            "contentItemId": "Nfs",
+            "qLanguage": {
+                "str": "NFS",
+                "key": "NFS"
+            },
+            "xtype": "nfs",
+            "require": "DESKTOP.Service.nfs.view.Nfs"
+        }]
+    }, {
+        "itemId": "treeFtp",
+        "iconCls": "tree-ftp",
+        "qLanguage": {
+            "str": "FTP",
+            "key": "FTP"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabFtp",
+            "contentItemId": "Ftp",
+            "qLanguage": {
+                "str": "FTP",
+                "key": "FTP"
+            },
+            "xtype": "ftp",
+            "require": "DESKTOP.Service.ftp.view.Ftp"
+        }]
+    }, {
+        "itemId": "treeWebDav",
+        "iconCls": "tree-webdav",
+        "qLanguage": {
+            "str": "WebDAV",
+            "key": "WEBDAV"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabWebDav",
+            "contentItemId": "WebDav",
+            "qLanguage": {
+                "str": "WebDAV",
+                "key": "WEBDAV"
+            },
+            "xtype": "webdav",
+            "require": "DESKTOP.Service.webdav.view.WebDav"
+        }]
+    }, {
+        "itemId": "treeRsync",
+        "iconCls": "tree-rsync",
+        "qLanguage": {
+            "str": "Rsync",
+            "key": "RSYNC"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabRsync",
+            "contentItemId": "Rsync",
+            "qLanguage": {
+                "str": "Rsync",
+                "key": "RSYNC"
+            },
+            "xtype": "rsync",
+            "require": "DESKTOP.Service.rsync.view.Rsync"
+        }]
+    }, {
+        "itemId": "treeTimeMachine",
+        "iconCls": "tree-timemachine",
+        "qLanguage": {
+            "str": "Time Machine",
+            "key": "TIME_MACHINE"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabGeneralSetting",
+            "contentItemId": "GeneralSetting",
+            "qLanguage": {
+                "str": "General Setting",
+                "key": "GENERAL_SETTING"
+            },
+            "xtype": "generalsetting",
+            "require": "DESKTOP.Service.timemachine.view.GeneralSetting"
+        }, {
+            "itemId": "tabAccessPermission",
+            "contentItemId": "AccessPermission",
+            "qLanguage": {
+                "str": "Access Permission",
+                "key": "ACCESS_PERMISSION"
+            },
+            "xtype": "accesspermission",
+            "require": "DESKTOP.Service.timemachine.view.AccessPermission"
+        }]
+    }]
+}

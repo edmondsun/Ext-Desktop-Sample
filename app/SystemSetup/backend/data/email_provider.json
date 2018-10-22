@@ -1,0 +1,29 @@
+{
+    "success": true,
+    "data": [{
+        "provider": "custom",
+        "default_smtp_server": "",
+        "default_auth_method": "",
+        "default_port": ""
+    }, {
+        "provider": "gmail",
+        "default_smtp_server": "smtp.gmail.com",
+        "default_auth_method": "ssl",
+        "default_port": "465"
+    }, {
+        "provider": "yahoo",
+        "default_smtp_server": "smtp.mail.yahoo.com",
+        "default_auth_method": "ssl",
+        "default_port": "465"
+    }, {
+        "provider": "outlook",
+        "default_smtp_server": "smtp-mail.outlook.com",
+        "default_auth_method": "tls",
+        "default_port": "587"
+    }, {
+        "provider": "qq",
+        "default_smtp_server": "smtp.qq.com",
+        "default_auth_method": "ssl",
+        "default_port": "465"
+    }]
+}

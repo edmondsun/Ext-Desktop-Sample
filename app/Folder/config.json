@@ -1,0 +1,73 @@
+{
+    "app": "Folder",
+    "qLanguage": {
+        "str": "Folder",
+        "key": "FOLDER"
+    },
+    "css": ["style.css"],
+    "cls": "app-win-folder",
+    "tree": [{
+        "itemId": "treeDefault",
+        "iconCls": "default",
+        "qLanguage": {
+            "str": "Default",
+            "key": "DEFAULT"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabFolderMap",
+            "contentItemId": "FolderMap",
+            "qLanguage": {
+                "str": "Folder Map",
+                "key": "FOLDER_MAP"
+            },
+            "xtype": "folderfoldermap",
+            "require": "DESKTOP.Folder.default.view.FolderMap"
+        }, {
+            "itemId": "tabGeneralSetting",
+            "contentItemId": "GeneralSetting",
+            "qLanguage": {
+                "str": "General Setting",
+                "key": "GENERAL_SETTING"
+            },
+            "xtype": "foldergeneralsetting",
+            "require": "DESKTOP.Folder.default.view.GeneralSetting"
+        }, {
+            "itemId": "tabShareFolder",
+            "contentItemId": "ShareFolder",
+            "qLanguage": {
+                "str": "Share Folder",
+                "key": "SHARE_FOLDER"
+            },
+            "xtype": "foldersharefolder",
+            "require": "DESKTOP.Folder.default.view.ShareFolder"
+        }, {
+            "itemId": "tabNfsHost",
+            "contentItemId": "NfsHost",
+            "qLanguage": {
+                "str": "NFS Host",
+                "key": "NFS_HOST"
+            },
+            "xtype": "foldernfshost",
+            "require": "DESKTOP.Folder.default.view.NfsHost"
+        }, {
+            "itemId": "tabWebDav",
+            "contentItemId": "WebDav",
+            "qLanguage": {
+                "str": "WebDAV",
+                "key": "WEBDAV"
+            },
+            "xtype": "folderwebdav",
+            "require": "DESKTOP.Folder.default.view.WebDav"
+        }, {
+            "itemId": "tabWindowsNetworkHost",
+            "contentItemId": "WindowsNetworkHost",
+            "qLanguage": {
+                "str": "Windows Network Host",
+                "key": "WINDOWS_NETWORK_HOST"
+            },
+            "xtype": "folderwindowsnetworkhost",
+            "require": "DESKTOP.Folder.default.view.WindowsNetworkHost"
+        }]
+    }]
+}

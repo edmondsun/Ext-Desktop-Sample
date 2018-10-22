@@ -1,0 +1,23 @@
+.app-win-systemsetup .x-tree-icon.x-tree-icon-leaf.tree-generalsetting {
+    background-image: url(../images/icon_gereral-setting.png);
+}
+
+.app-win-systemsetup .x-tree-icon.x-tree-icon-leaf.tree-network {
+    background-image: url(../images/icon_network.png);
+}
+
+.app-win-systemsetup .x-tree-icon.x-tree-icon-leaf.tree-power {
+    background-image: url(../images/icon_power.png);
+}
+
+.app-win-systemsetup .x-tree-icon.x-tree-icon-leaf.tree-notification {
+    background-image: url(../images/icon_notificaiton.png);
+}
+
+.app-win-systemsetup .x-tree-icon.x-tree-icon-leaf.tree-performancetuning {
+    background-image: url(../images/icon_perormance-tuning.png);
+}
+
+.app-win-systemsetup .x-tree-icon.x-tree-icon-leaf.tree-maintenance {
+    background-image: url(../images/icon_maintenance.png);
+}

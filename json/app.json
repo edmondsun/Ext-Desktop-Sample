@@ -1,0 +1,18 @@
+{
+    "SystemSetup": {
+        "type": "fn",
+        "defaultName": "System setting",
+        "nameIndex": "QSAN_SYSTEM_SETUP",
+        "descriptionIndex": "QSAN_SYSTEM_SETUP_DESC",
+        "icon": "img/app_replace.png",
+        "appKey": "QSM_SystemSetup"
+    },
+    "StorageManagement": {
+        "type": "fn",
+        "defaultName": "Storage management",
+        "nameIndex": "QSAN_STORAGE_MANAGEMENT",
+        "descriptionIndex": "QSAN_STORAGE_MANAGEMENT_DESC",
+        "icon": "img/app_replace.png",
+        "appKey": "QSM_STORAGEMANAGEMENT"
+    }
+}

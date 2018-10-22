@@ -1,0 +1,264 @@
+/* base, misc. */
+
+.x-body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #000 url(../img/wallpaper.jpg) center center fixed no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.x-mask:has(.loadingx) {
+    background: #f00 !important;
+}
+
+.x-mask-msg.loadingx {
+    background: none;
+}
+
+.loadingx .x-mask-msg-text {
+    background: url(../img/icon-loading16x16.gif) no-repeat center 0;
+}
+
+.bg1 {
+    background: #f00;
+}
+
+.bg2 {
+    background: #0f0;
+}
+
+.bg3 {
+    background: #00f;
+}
+
+
+/* shortcut */
+
+.shortcutContainer {
+    border-radius: 0;
+}
+
+.shortcutContainer .x-panel-body {
+    background: transparent;
+    border: 0;
+}
+
+.shortcutContainer.x-window-default,
+.shortcutContainer > .x-window-body-default {
+    background: none !important;
+}
+
+.shortcutContainer .shortcut-img {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.shortcutContainer .shortcut-img img {
+    margin: 0 auto;
+    /* width: 80px; */
+    width: 100px;
+}
+
+.shortcutContainer .shortcut-wrap {
+    float: left;
+    padding: 5px;
+}
+
+.shortcutContainer .shortcut-wrap span {
+    display: block;
+    text-align: center;
+}
+
+.shortcutContainer .shortcut-wrap {
+    background: transparent;
+    width: 120px;
+    height: 120px;
+    margin: 14px 18px;
+    text-align: center;
+}
+
+.shortcutContainer .shortcut-text,
+.shortcutContainer .shortcut-wrap {
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.shortcutContainer .shortcut-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.shortcutContainer .x-item-over {
+    border: 1px solid #dddddd;
+    /* background: #efefef url(over.gif) repeat-x left top; */
+    border: 0;
+}
+
+.shortcutContainer .x-item-selected {
+    /* background: #eff5fb url(selected.gif) no-repeat right bottom; */
+    border: 1px solid #99bbe8;
+    border: 0;
+}
+
+.shortcutContainer .x-item-selected .shortcut-img {
+    background: transparent;
+}
+
+.shortcutContainer .loading-indicator {
+    font-size: 11px;
+    /* background-image: url(../../resources/themes/images/default/grid/loading.gif); */
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.x-view-selector {
+    border: 0;
+}
+
+.x-view-selector,
+.x-view-item-focused {
+    border: 0;
+}
+
+.ext-strict .ext-ie .x-tree .x-panel-bwrap {
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* taskbar */
+
+.topTaskbar {
+    border: 0;
+    border-left: 0;
+    border-right: 0;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0 10px;
+    color: rgb(63, 63, 63);
+}
+
+.topBtn,
+.topBtn:hover {
+    background: none;
+    border: 0;
+}
+
+.topBtn:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.tb-host-menu {
+    background: transparent url(../img/taskbar_icon_disk.png) no-repeat center center;
+}
+
+.tb-search {
+    background: transparent url(../img/taskbar_icon_search.png) no-repeat center center;
+}
+
+.tb-user-menu {
+    background: transparent url(../img/taskbar_icon_userhead_default.png) no-repeat center center;
+}
+
+.tb-help {
+    background: transparent url(../img/taskbar_icon_help.png) no-repeat center center;
+}
+
+.tb-notification {
+    background: transparent url(../img/taskbar_icon_notification.png) no-repeat scroll center center;
+}
+
+.tb-multitask {
+    background: transparent url(../img/taskbar_icon_multi.png) no-repeat scroll center center;
+}
+
+.tb-host-menu,
+.tb-search,
+.tb-user-menu,
+.tb-help,
+.tb-notification,
+.tb-multitask {
+    background-size: 70%;
+}
+
+.btnSearchFile {
+    background: transparent url(../img/btnSearchFile.png) no-repeat scroll center center;
+}
+
+
+/* dock */
+
+.dockContainer {
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    padding: 14px 8px 2px 8px;
+}
+
+.dockContainer.x-window-default {
+    background: rgba(255, 255, 255, 0.4) !important;
+    border-width: 0px !important;
+}
+
+.dockContainer > .x-window-body-default {
+    background: none !important;
+}
+
+.toolbarDock {
+    background: none !important;
+}
+
+.dock-item {
+    border: none !important;
+    background: none !important;
+    border: 1px #f00 solid;
+}
+
+.dock-item-image {
+    width: 100%;
+    border: 0px #f00 solid;
+}
+
+.dock-running-dot {
+    width: 4px;
+    height: 4px;
+    background: #999;
+    margin: 0 auto;
+    margin-bottom: 4px;
+    border-radius: 2px;
+}
+
+.dock-toggle-button {
+    border-radius: 0;
+}
+
+.dock-dot {
+    background: none;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-bottom: 4px;
+}
+
+.dock-dot-running {
+    background: #fff;
+}
+
+
+/* base style for tree icon */
+
+.x-tree-icon.x-tree-icon-leaf {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 30px;
+    width: 30px;
+    /* border: 1px #f00 solid; */
+}

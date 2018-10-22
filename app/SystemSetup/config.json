@@ -1,0 +1,217 @@
+{
+    "app": "SystemSetup",
+    "qLanguage": {
+        "str": "System Setup",
+        "key": "SYSTEM_SETUP"
+    },
+    "css": ["style.css"],
+    "cls": "app-win-systemsetup",
+    "tree": [{
+        "itemId": "treeGeneralSetting",
+        "iconCls": "tree-generalsetting",
+        "qLanguage": {
+            "str": "General Setting",
+            "key": "GENERAL_SETTING"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabSystem",
+            "contentItemId": "System",
+            "qLanguage": {
+                "str": "System",
+                "key": "SYSTEM"
+            },
+            "xtype": "system",
+            "require": "DESKTOP.SystemSetup.generalsetting.view.System"
+        }, {
+            "itemId": "tabTimeDate",
+            "contentItemId": "TimeDate",
+            "qLanguage": {
+                "str": "Time & Date",
+                "key": "TIME_N_DATE"
+            },
+            "xtype": "time",
+            "require": "DESKTOP.SystemSetup.generalsetting.view.Time"
+        }, {
+            "itemId": "tabManagement",
+            "contentItemId": "Management",
+            "qLanguage": {
+                "str": "Management",
+                "key": "MANAGEMENT"
+            },
+            "xtype": "management",
+            "require": "DESKTOP.SystemSetup.generalsetting.view.Management"
+        }]
+    }, {
+        "itemId": "treeNetwork",
+        "iconCls": "tree-network",
+        "qLanguage": {
+            "str": "Network",
+            "key": "NETWORK"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabInterface",
+            "contentItemId": "Interface",
+            "qLanguage": {
+                "str": "Interface",
+                "key": "INTERFACES"
+            },
+            "xtype": "netinterfaces",
+            "require": "DESKTOP.SystemSetup.network.view.Interfaces"
+        }, {
+            "itemId": "tabIpv6",
+            "contentItemId": "Ipv6",
+            "qLanguage": {
+                "str": "IPv6",
+                "key": "IPV6"
+            },
+            "xtype": "netipv6",
+            "require": "DESKTOP.SystemSetup.network.view.IPv6"
+        }, {
+            "itemId": "tabRouting",
+            "contentItemId": "Routing",
+            "qLanguage": {
+                "str": "Routing",
+                "key": "ROUTING"
+            },
+            "xtype": "routing",
+            "require": "DESKTOP.SystemSetup.network.view.Routing"
+        }, {
+            "itemId": "tabAdvanced",
+            "contentItemId": "Advanced",
+            "qLanguage": {
+                "str": "Advanced",
+                "key": "ADVANCED"
+            },
+            "xtype": "advanced",
+            "require": "DESKTOP.SystemSetup.network.view.Advanced"
+        }]
+    }, {
+        "itemId": "treePower",
+        "iconCls": "tree-power",
+        "qLanguage": {
+            "str": "Power",
+            "key": "POWER"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabUps",
+            "contentItemId": "Ups",
+            "qLanguage": {
+                "str": "UPS",
+                "key": "UPS"
+            },
+            "xtype": "ups",
+            "require": "DESKTOP.SystemSetup.power.view.Ups"
+        }, {
+            "itemId": "tabManagement",
+            "contentItemId": "Management",
+            "qLanguage": {
+                "str": "Management",
+                "key": "MANAGEMENT"
+            },
+            "xtype": "powermanagement",
+            "require": "DESKTOP.SystemSetup.power.view.PowerManagement"
+        }, {
+            "itemId": "tabSchedule",
+            "contentItemId": "Schedule",
+            "qLanguage": {
+                "str": "Schedule",
+                "key": "SCHEDULE"
+            },
+            "xtype": "schedule",
+            "require": "DESKTOP.SystemSetup.power.view.Schedule"
+        }]
+    }, {
+        "itemId": "treeNotification",
+        "iconCls": "tree-notification",
+        "qLanguage": {
+            "str": "Notification",
+            "key": "NOTIFICATION"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabNotificationCenter",
+            "contentItemId": "Center",
+            "qLanguage": {
+                "str": "Notification Center",
+                "key": "NOTIFICATION_CENTER"
+            },
+            "xtype": "notification",
+            "require": "DESKTOP.SystemSetup.notification.view.Notification"
+        }, {
+            "itemId": "tabMail",
+            "contentItemId": "Mail",
+            "qLanguage": {
+                "str": "Mail",
+                "key": "MAIL"
+            },
+            "xtype": "mail",
+            "require": "DESKTOP.SystemSetup.notification.view.Mail"
+        }, {
+            "itemId": "tabSnmp",
+            "contentItemId": "Snmp",
+            "qLanguage": {
+                "str": "SNMP",
+                "key": "SNMP"
+            },
+            "xtype": "snmp",
+            "require": "DESKTOP.SystemSetup.notification.view.SNMP"
+        }]
+    }, {
+        "itemId": "treePerformanceTuning",
+        "iconCls": "tree-performancetuning",
+        "qLanguage": {
+            "str": "Performance Tuning",
+            "key": "PERFORMANCE_TUNING"
+        },
+        "applyAll": true,
+        "tabs": [{
+            "itemId": "tabPerformance",
+            "contentItemId": "Performance",
+            "qLanguage": {
+                "str": "Application Mode",
+                "key": "APPLICATION_MODE"
+            },
+            "xtype": "performance",
+            "require": "DESKTOP.SystemSetup.performance.view.Performance"
+        }]
+    }, {
+        "itemId": "treeMaintenance",
+        "iconCls": "tree-maintenance",
+        "qLanguage": {
+            "str": "Maintenance",
+            "key": "MAINTENANCE"
+        },
+        "applyAll": false,
+        "tabs": [{
+            "itemId": "tabUpgrade",
+            "contentItemId": "Upgrade",
+            "qLanguage": {
+                "str": "System Upgrade",
+                "key": "SYSTEM_UPGRADE"
+            },
+            "xtype": "upgrade",
+            "require": "DESKTOP.SystemSetup.maintenance.view.Upgrade"
+        }, {
+            "itemId": "tabRecovery",
+            "contentItemId": "Recovery",
+            "qLanguage": {
+                "str": "System Recovery",
+                "key": "SYSTEM_RECOVERY"
+            },
+            "xtype": "recovery",
+            "require": "DESKTOP.SystemSetup.maintenance.view.Recovery"
+        }, {
+            "itemId": "tabImportExport",
+            "contentItemId": "ImportExport",
+            "qLanguage": {
+                "str": "Import/ Export",
+                "key": "IMPORT_N_EXPORT"
+            },
+            "xtype": "importexport",
+            "require": "DESKTOP.SystemSetup.maintenance.view.ImportExport"
+        }]
+    }]
+}
